@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import *
 from random import randint
 
 def test():
-    text.setText(str(randint(1, 200000)))
+    text.setText(str(randint(4, 10)))
 
 app = QApplication([])
 win = QWidget()
